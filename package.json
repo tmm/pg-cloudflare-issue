@@ -1,0 +1,19 @@
+{
+	"private": true,
+	"scripts": {
+		"test:pass": "vitest -c vitest.pass.config.mts",
+		"test:fail": "vitest -c vitest.fail.config.mts"
+	},
+	"dependencies": {
+		"pg": "^8.14.1"
+	},
+	"devDependencies": {
+		"@cloudflare/vitest-pool-workers": "0.8.12",
+		"@cloudflare/workers-types": "^4.20250407.0",
+		"@types/pg": "^8.11.11",
+		"typescript": "^5.5.2",
+		"vitest": "~3.0.9",
+		"wrangler": "^4.8.0"
+	},
+	"packageManager": "pnpm@10.7.1"
+}
